@@ -59,11 +59,11 @@ which the horse with the specified name is located. If there is no horse with th
 the method returns -1.
 
  For example, assume a *HorseBarn* object called *sweetHome* has horses in the following spaces. 
- ![sweetHome](assets/sweetHome.PNG)
+ ![sweetHome](sweetHome.PNG)
  The following table shows the results of several calls to the *findHorseSpace* method. 
- ![sweetHomeTable](assets/sweetHomeTable.PNG)
+ ![sweetHomeTable](sweetHomeTable.PNG)
 
- ![info](assets/info.PNG)
+ ![info](info.PNG)
 
  Complete method *findHorseSpace* .
  ```java
@@ -81,12 +81,12 @@ the method returns -1.
  
  For example, assume a barn has horses in the following spaces. 
 
- ![sweetHome](assets/sweetHome.PNG)
+ ![sweetHome](sweetHome.PNG)
 
 The following table shows the arrangement of the horses after *consolidate* is called. 
-![consolidate](assets/consolidate.PNG)
+![consolidate](consolidate.PNG)
 
- ![info](assets/info.PNG)
+ ![info](info.PNG)
 
 Complete method *consolidate*.
 ``` java

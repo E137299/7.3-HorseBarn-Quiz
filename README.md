@@ -99,3 +99,25 @@ Complete method *consolidate*.
  */
  public void consolidate() 
  ```
+
+### (c)
+Write the *HorseBarn* method *toString*. This method generates a string representing the current state of the array. The string simulates an array, including only horse names and "null" in places where there are no horses. The string is enclosed within square brackets "[" and "]" and contains a ", " between each horse name or "null".
+
+Example:
+```java
+public class Main{
+	public static void main(String[] args){
+		HorseBarn barn = new HorseBarn(5);
+	        barn.addHorse(4,new Horse("Pickle", "Brown", 660));
+	        barn.addHorse(2,new Horse("Bunny", "White", 720));
+	        barn.addHorse(3, new Horse( "Pumpkin", "Black", 660));
+	        barn.consolidate();
+	        String result = barn.toString();
+	}
+}
+```
+
+Output:
+```
+[Pickle, Bunny, Pumpkin, null, null]
+```

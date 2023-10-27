@@ -84,7 +84,7 @@ the method returns -1.
  
  For example, assume a barn has horses in the following spaces. 
 
- ![sweetHome](sweetHome.PNG)
+ ![sweetHome](barn.PNG)
 
 The following table shows the arrangement of the horses after *consolidate* is called. 
 ![consolidate](consolidate.PNG)

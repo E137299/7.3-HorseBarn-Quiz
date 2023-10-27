@@ -59,8 +59,11 @@ which the horse with the specified name is located. If there is no horse with th
 the method returns -1.
 
  For example, assume a *HorseBarn* object called *sweetHome* has horses in the following spaces. 
+ 
  ![sweetHome](sweetHome.PNG)
+ 
  The following table shows the results of several calls to the *findHorseSpace* method. 
+ 
  ![sweetHomeTable](sweetHomeTable.PNG)
 
  ![info](info.PNG)
